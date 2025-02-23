@@ -1,5 +1,7 @@
 .DS_Store
 .env
 *.log
-/www/*
-!/www/index.php
+/app/*
+!/app/public
+/app/public/*
+!/app/public/index.php
