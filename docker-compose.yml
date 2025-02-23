@@ -12,7 +12,7 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
   nginx:
-      image: nginx:latest
+      image: nginx:alpine-slim
       container_name: ${PROJECT_NAME}-nginx
       ports:
         - "80:80"
