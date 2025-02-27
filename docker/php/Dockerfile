@@ -5,4 +5,4 @@ ADD --chmod=0755 https://github.com/mlocati/docker-php-extension-installer/relea
 RUN install-php-extensions xdebug \
     && docker-php-ext-enable xdebug
 
-COPY ./docker/xdebug.ini /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+COPY ./xdebug.ini /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
